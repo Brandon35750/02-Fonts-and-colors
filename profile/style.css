@@ -1,0 +1,106 @@
+/* TODO: design your profile with CSS */
+/* FONTS & COLORS */
+
+body {
+   /* if you want the light version */
+  color: white;
+  background-color: #92CCEC;
+  font-family: 'Lateef', cursive;
+  background-image: url(images/ocean.jpg);
+  background-size: cover;
+  font-weight: bold;
+  line-height: 1,5;
+  font-size: 25px;
+
+}
+
+h1 {
+  font-size:64px; /* if you want the light version */
+
+}
+h2 {
+
+}
+
+h3 {
+letter-spacing: 16px;
+}
+
+
+div {
+  background-color:rgba(254,254,254,0.3);
+  border-radius:4px;
+  box-shadow: 0px 10px 30px rgba(7,7,3,1);
+  width:640px;
+  margin:16px auto;
+  padding:16px;
+}
+
+
+.avatar
+ {
+  width:200px;
+  height:200px;
+  border-radius: 50px;
+  object-fit: cover;
+  text-align: center;
+
+}
+
+.text-center {
+  text-align:center;
+}
+
+
+.unstyled-list {
+  list-style: none;
+  padding-left: 0px;
+}
+
+.list-inline li {
+  display:inline;
+}
+
+.list-inline li i {
+  font-size:36px;
+  color:#DDDDDD;
+  margin-left:16px;
+}
+
+.list-inline li i:hover {
+  color:black;
+}
+
+
+.btn-orange {
+  background-color:rgba(254,254,254,0);
+  color:#92CCEC;
+  padding:12px 24px;
+}
+
+.btn-orange:hover {
+  background-color:white;
+  color:#CF7858;
+  border: 1px solid #CF7858;
+}
+
+i {
+  font-size: 80px;
+  color:red;
+}
+
+h1, h2, h3 {
+  font-size:30px;
+  font-weight: bold;
+  font-family: 'Caveat', cursive;
+font-family: 'Permanent Marker', cursive;
+font-family: 'Russo One', sans-serif;
+}
+
+
+/* Specific Design */
+
+#intro-paragraph {
+  margin-bottom:24px;
+}
+
